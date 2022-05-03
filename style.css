@@ -1,0 +1,78 @@
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+ }
+ .nav-link:hover > a{
+    background-color: #23408f;
+    color:white;
+ }
+ .dropdown:hover > a{
+    background-color: #23408f;
+    color:white;
+ }
+ .hero-section{
+     background-image: url("./images/parallax-background.png");
+      /* Set a specific height */
+  min-height: 900px;
+  position: relative;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ }
+ .hero-title{
+    color:white;
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-weight: 700;
+    font-size: 3em
+ }
+ .custom-shape-divider-bottom-1651550537 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1651550537 svg {
+    position: relative;
+    display: block;
+    width: calc(185% + 1.3px);
+    height: 142px;
+}
+
+.custom-shape-divider-bottom-1651550537 .shape-fill {
+    fill: #ffffff;
+    
+}
+.hero-descrip{
+    color:white;
+    font-size: 2.6em;
+    line-height: 44px;
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-weight: 200;
+    letter-spacing: -.05em;
+}
+.hero-video > img{
+    border-style: solid;
+    border-width: 10px;
+    border-color: white;
+}
+.examples-title{
+    color: #183f72;
+    font-weight: 700;
+    font-size: 2.6em;
+    line-height: 44px;
+    letter-spacing: -.05em;
+    font-family: "Segoe UI",Arial,sans-serif;
+}
+.example-box{
+    border-radius: 8px;
+    border-style: solid;
+    border-color: rgb(11, 40, 255);
+}
